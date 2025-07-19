@@ -4,7 +4,7 @@
   "description": "Testing and Debugging MERN Applications Assignment",
   "main": "index.js",
   "scripts": {
-    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "install-all": "pnpm install && cd client && pnpm install && cd ../server && pnpm install",
     "test": "jest",
     "test:unit": "jest --testPathPattern=unit",
     "test:integration": "jest --testPathPattern=integration",
